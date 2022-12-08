@@ -65,7 +65,7 @@ public class Book {//main book class
 
 	@Override
 	public String toString() {	//for printing all details of Book objects
-		"Book['bookID='" + bookID + "', title='" + title + "', author='" + author + "', category='" + category + "', price='" + price + "']";
+		return "Book['bookID='" + bookID + "', title='" + title + "', author='" + author + "', category='" + category + "', price='" + price + "']";
 	}
 
 	
