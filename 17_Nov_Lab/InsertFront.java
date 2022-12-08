@@ -8,10 +8,10 @@ import java.util.*;
 public class InsertFront {
 
 	public static void main(String[] args) {
-		LinkedList<Character> vowel=new LinkedList<Character>();
-		Collections.addAll(vowel, 'e','i','o','u');
-		System.out.println("before insert="+vowel);
-		vowel.addFirst('a');
-		System.out.println("after insert="+vowel);
+		LinkedList<Character> vowel=new LinkedList<Character>(); // create new LinkedList
+		Collections.addAll(vowel, 'e','i','o','u'); // adding elements to ArrayList
+		System.out.println("before insert="+vowel); //print ArrayList before insert
+		vowel.addFirst('a');  // insert element at position 1
+		System.out.println("after insert="+vowel); //print ArrayList after insert
 	}
 }
