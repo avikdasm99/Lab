@@ -10,8 +10,8 @@ public class CompareArraylist {
 		ArrayList<String> color2=new ArrayList<String>();  // create ArrayList color2
 		Collections.addAll(color2, "red","green","black","pink");  //adding elements to color1
 		ArrayList<String> result = new ArrayList<String>(); // create ArrayList Result where the compare values are stored using For loop
-        for (String s : color1)
-        	result.add(color2.contains(s) ? "yes" : "no");
+        for (String s : color1)  // for each loop
+        	result.add(color2.contains(s) ? "yes" : "no"); 
         System.out.println(result);  // show the result Arraylist
 	}
 }
