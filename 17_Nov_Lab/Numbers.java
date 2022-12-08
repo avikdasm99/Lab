@@ -40,9 +40,6 @@ public class Numbers {
 			
 	public static void main(String[] args) {
 		Numbers num=new Numbers();
-		//Scanner sc=new Scanner(System.in);
-		//System.out.print("Enter the value of N = ");
-		//int N=sc.nextInt();
 		System.out.println(num.storeEvenNumbers(25));
 		System.out.println(num.printEvenNumbers());
 		System.out.println(num.retrieveEvenNumber(14));
